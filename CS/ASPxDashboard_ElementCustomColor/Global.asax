@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="ASPxDashboard_ElementCustomColor.Global_asax" Language="C#" %>
