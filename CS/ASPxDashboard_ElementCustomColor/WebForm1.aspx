@@ -17,11 +17,13 @@
         <dx:ASPxDashboard ID="ASPxDashboard1" runat="server" 
             WorkingMode="Viewer" 
             ClientInstanceName="webViewer"
-            ClientSideEvents-ItemElementCustomColor="function(s, e) { setColors(e); }" 
             Height="100%" Width="100%">
+            <ClientSideEvents 
+                ItemElementCustomColor="function(s, e) { setColors(e); }" />
         </dx:ASPxDashboard>
     </div>
     </form>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/ElementCustomColor.js") %>"></script>
 </body>
 </html>
-<script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/ElementCustomColor.js") %>"></script>
+
