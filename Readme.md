@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [ElementCustomColor.js](./CS/ASPxDashboard_ElementCustomColor/Scripts/ElementCustomColor.js) (VB: [ElementCustomColor.js](./VB/ASPxDashboard_ElementCustomColor/Scripts/ElementCustomColor.js))
+* [WebForm1.aspx](./CS/ASPxDashboard_ElementCustomColor/WebForm1.aspx) (VB: [WebForm1.aspx.vb](./VB/ASPxDashboard_ElementCustomColor/WebForm1.aspx.vb))
+* [WebForm1.aspx.cs](./CS/ASPxDashboard_ElementCustomColor/WebForm1.aspx.cs) (VB: [WebForm1.aspx.vb](./VB/ASPxDashboard_ElementCustomColor/WebForm1.aspx.vb))
+<!-- default file list end -->
 # ASPxDashboard - How to color dashboard item elements
 
 
