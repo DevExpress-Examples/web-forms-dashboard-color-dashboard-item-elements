@@ -26,4 +26,3 @@
     <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/ElementCustomColor.js") %>"></script>
 </body>
 </html>
-
