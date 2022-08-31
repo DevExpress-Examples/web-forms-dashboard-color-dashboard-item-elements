@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" 
-    CodeBehind="WebForm1.aspx.cs" 
+<%@ Page Language="VB" AutoEventWireup="true" 
+    CodeBehind="WebForm1.aspx.vb" 
     Inherits="ASPxDashboard_ElementCustomColor.WebForm1" %>
 
 <%@ Register Assembly="DevExpress.Dashboard.v16.2.Web, Version=16.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
