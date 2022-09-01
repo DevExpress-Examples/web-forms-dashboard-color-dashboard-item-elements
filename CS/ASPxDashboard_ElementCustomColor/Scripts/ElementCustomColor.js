@@ -39,7 +39,7 @@ function setColors(args) {
     if (args.itemName === "pieDashboardItem1") {
         var value = pieClientData.getSlice(currentElement.getAxisPoint(argumentAxis)).
             getMeasureValue(pieClientData.getMeasures()[0].id).getValue();
-        // Values below 17k are colored in yellow.
+        // Values below 80k are colored in yellow.
         if (value < 80000)
             args.setColor("#fdb400");
     }
