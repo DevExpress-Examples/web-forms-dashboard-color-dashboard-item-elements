@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" 
-    CodeBehind="WebForm1.aspx.cs" 
-    Inherits="ASPxDashboard_ElementCustomColor.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="ASPxDashboard_ElementCustomColor.WebForm1" %>
 
 <%@ Register Assembly="DevExpress.Dashboard.v22.1.Web.WebForms, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
     Namespace="DevExpress.DashboardWeb" TagPrefix="dx" %>
@@ -20,8 +18,7 @@
             WorkingMode="Viewer" 
             ClientInstanceName="dashboardControl"
             Height="100%" Width="100%">
-            <ClientSideEvents BeforeRender="onBeforeRender"
-                 />
+            <ClientSideEvents BeforeRender="onBeforeRender" />
         </dx:ASPxDashboard>
     </div>
     </form>
