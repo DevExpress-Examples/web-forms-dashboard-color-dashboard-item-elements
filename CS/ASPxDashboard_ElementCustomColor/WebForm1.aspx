@@ -2,7 +2,7 @@
     CodeBehind="WebForm1.aspx.cs" 
     Inherits="ASPxDashboard_ElementCustomColor.WebForm1" %>
 
-<%@ Register Assembly="DevExpress.Dashboard.v22.1.Web.WebForms, Version=22.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
+<%@ Register Assembly="DevExpress.Dashboard.v22.1.Web.WebForms, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
     Namespace="DevExpress.DashboardWeb" TagPrefix="dx" %>
 
 <!DOCTYPE html>

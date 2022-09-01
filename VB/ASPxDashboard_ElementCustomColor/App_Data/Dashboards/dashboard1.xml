@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="Dashboard" />
+  <DataSources>
+    <SqlDataSource Name="SalesPerson" ComponentName="DataSource1">
+      <Connection Name="nwindConnection" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="SalesPerson">
+        <Tables>
+          <Table Name="SalesPerson" />
+        </Tables>
+        <Columns>
+          <AllColumns Table="SalesPerson" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Chart ComponentName="chartDashboardItem1" Name="Chart" ParentContainer="groupDashboardItem1" DataSource="DataSource1" DataMember="SalesPerson">
+      <DataItems>
+        <Measure DataMember="Extended Price" DefaultId="DataItem0" />
+        <Dimension DataMember="Sales Person" DefaultId="DataItem1" />
+        <Dimension DataMember="OrderDate" DefaultId="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem2" />
+      </SeriesDimensions>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend Visible="false" />
+    </Chart>
+    <Pie ComponentName="pieDashboardItem1" Name="Pie" DataSource="DataSource1" DataMember="SalesPerson">
+      <DataItems>
+        <Measure DataMember="Extended Price" DefaultId="DataItem0" />
+        <Dimension DataMember="Sales Person" DefaultId="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem0" />
+      </Values>
+    </Pie>
+    <ComboBox ComponentName="comboBoxDashboardItem1" Name="Combo Box 1" ShowCaption="false" ParentContainer="groupDashboardItem1" DataSource="DataSource1" DataMember="SalesPerson" ShowAllValue="false">
+      <DataItems>
+        <Dimension DataMember="OrderDate" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </ComboBox>
+  </Items>
+  <Groups>
+    <Group ComponentName="groupDashboardItem1" Name="Group 1" ShowCaption="false" />
+  </Groups>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutGroup DashboardItem="groupDashboardItem1" Weight="115.30793960010531">
+        <LayoutGroup Orientation="Vertical" Weight="115.96873255164712">
+          <LayoutItem DashboardItem="comboBoxDashboardItem1" Weight="115.96873255164712" />
+          <LayoutItem DashboardItem="chartDashboardItem1" Weight="115.96873255164712" />
+        </LayoutGroup>
+      </LayoutGroup>
+      <LayoutItem DashboardItem="pieDashboardItem1" Weight="84.692060399894686" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>
