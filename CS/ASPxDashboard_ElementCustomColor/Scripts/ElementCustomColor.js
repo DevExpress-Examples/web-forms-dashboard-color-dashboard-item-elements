@@ -21,8 +21,8 @@ function setColors(args) {
         var value = chartClientData.getSlice(currentElement.getAxisPoint(argumentAxis)).
             getSlice(currentElement.getAxisPoint(seriesAxis)).
             getMeasureValue(chartClientData.getMeasures()[0].id).getValue();
-        // For 2014, values that exceed 30k are colored in green, values below 17k are colored in red, 
-        // and values that fall into the range between 17k and 30k are colored in gray.
+        // For 2014, values that exceed 30k are colored green, values below 17k are red, 
+        // and values that fall into the range between 17k and 30k are gray.
         if (year == 2014) {
             if (value > 30000) {
                 args.setColor("#336633");
@@ -39,7 +39,7 @@ function setColors(args) {
     if (args.itemName === "pieDashboardItem1") {
         var value = pieClientData.getSlice(currentElement.getAxisPoint(argumentAxis)).
             getMeasureValue(pieClientData.getMeasures()[0].id).getValue();
-        // Values below 80k are colored in yellow.
+        // Values below 80k are colored yellow.
         if (value < 80000)
             args.setColor("#fdb400");
     }
