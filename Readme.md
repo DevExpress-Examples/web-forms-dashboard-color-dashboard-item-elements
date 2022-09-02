@@ -10,8 +10,8 @@ The following example shows how to color a dashboard item's elements at runtime.
 
 The image below displays dashboard items whose values are colored based on their values:
 
-- [Chart item](https://docs.devexpress.com/Dashboard/117159/web-dashboard/create-dashboards-on-the-web/dashboard-item-settings/chart#client-data-structure): For 2014, values that exceed 30k are colored green, values below 17k are red, and values between 170k and 30k are gray.
-- [Pie item](https://docs.devexpress.com/Dashboard/117162/web-dashboard/create-dashboards-on-the-web/dashboard-item-settings/pies#client-data-structure): Values below 80k are colored yellow.
+- [Chart item](https://docs.devexpress.com/Dashboard/117159/web-dashboard/create-dashboards-on-the-web/dashboard-item-settings/chart): For 2014, values that exceed 30k are colored green, values below 17k are red, and values between 170k and 30k are gray.
+- [Pie item](https://docs.devexpress.com/Dashboard/117162/web-dashboard/create-dashboards-on-the-web/dashboard-item-settings/pies): Values below 80k are colored yellow.
 
 ![](dashboard-color-elements.png)
 
