@@ -29,5 +29,5 @@ The image below displays dashboard items whose values are colored based on their
 
 ## More Examples
 
-- [Dashboard for ASP.NET Core - How to Color Dashboard Item Elements](https://github.com/DevExpress-Examples/asp-net-core-dashboard-color-dashboard-item-elements)
+- [Dashboard for ASP.NET Core - How to Customize Coloring of the Dashboard Item Elements on the Client](https://github.com/DevExpress-Examples/asp-net-core-dashboard-color-dashboard-item-elements)
 - [Dashboard for ASP.NET Core - How to Customize the Color Palette](https://github.com/DevExpress-Examples/asp-net-core-dashboard-customize-color-palettes)
