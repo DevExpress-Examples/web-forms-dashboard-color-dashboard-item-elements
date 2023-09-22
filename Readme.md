@@ -15,8 +15,7 @@ The image below displays dashboard items whose values are colored based on their
 
 ![](dashboard-color-elements.png)
 
-## Files to Look At
-
+## Files to Review
 * [ElementCustomColor.js](./CS/ASPxDashboard_ElementCustomColor/Scripts/ElementCustomColor.js) (VB: [ElementCustomColor.js](./VB/ASPxDashboard_ElementCustomColor/Scripts/ElementCustomColor.js))
 * [WebForm1.aspx](./CS/ASPxDashboard_ElementCustomColor/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/ASPxDashboard_ElementCustomColor/WebForm1.aspx))
 * [WebForm1.aspx.cs](./CS/ASPxDashboard_ElementCustomColor/WebForm1.aspx.cs) (VB: [WebForm1.aspx.vb](./VB/ASPxDashboard_ElementCustomColor/WebForm1.aspx.vb))
